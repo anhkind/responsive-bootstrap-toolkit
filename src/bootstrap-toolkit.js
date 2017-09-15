@@ -23,27 +23,27 @@ var ResponsiveBootstrapToolkit = function($){
             },
             // Bootstrap 4 Alpha
             bootstrap4Alpha: {
-                'xs': $('<div class="hidden-sm-up"></div>'),
-                'sm': $('<div class="hidden-xs-down hidden-md-up"></div>'),
-                'md': $('<div class="hidden-sm-down hidden-lg-up"></div>'),
-                'lg': $('<div class="hidden-md-down hidden-xl-up"></div>'),
-                'xl': $('<div class="hidden-lg-down"></div>')
+                'xs': $('<div class="device-xs hidden-sm-up"></div>'),
+                'sm': $('<div class="device-sm hidden-xs-down hidden-md-up"></div>'),
+                'md': $('<div class="device-md hidden-sm-down hidden-lg-up"></div>'),
+                'lg': $('<div class="device-lg hidden-md-down hidden-xl-up"></div>'),
+                'xl': $('<div class="device-xl hidden-lg-down"></div>')
             },
             // Bootstrap 4 Beta
             bootstrap4Beta: {
-                'xs': $('<div class="d-xs-block d-sm-none"></div>'),
-                'sm': $('<div class="d-none d-sm-block d-md-none"></div>'),
-                'md': $('<div class="d-none d-md-block d-lg-none"></div>'),
-                'lg': $('<div class="d-none d-lg-block d-xl-none"></div>'),
-                'xl': $('<div class="d-none d-xl-block"></div>')
+                'xs': $('<div class="device-xs d-block d-sm-none"></div>'),
+                'sm': $('<div class="device-sm d-none d-sm-block d-md-none"></div>'),
+                'md': $('<div class="device-md d-none d-md-block d-lg-none"></div>'),
+                'lg': $('<div class="device-lg d-none d-lg-block d-xl-none"></div>'),
+                'xl': $('<div class="device-xl d-none d-xl-block"></div>')
             },
             // Bootstrap 4
             bootstrap4: {
-                'xs': $('<div class="d-xs-block d-sm-none"></div>'),
-                'sm': $('<div class="d-none d-sm-block d-md-none"></div>'),
-                'md': $('<div class="d-none d-md-block d-lg-none"></div>'),
-                'lg': $('<div class="d-none d-lg-block d-xl-none"></div>'),
-                'xl': $('<div class="d-none d-xl-block"></div>')
+                'xs': $('<div class="device-xs d-block d-sm-none"></div>'),
+                'sm': $('<div class="device-sm d-none d-sm-block d-md-none"></div>'),
+                'md': $('<div class="device-md d-none d-md-block d-lg-none"></div>'),
+                'lg': $('<div class="device-lg d-none d-lg-block d-xl-none"></div>'),
+                'xl': $('<div class="device-xl d-none d-xl-block"></div>')
             },
             // Foundation 5
             foundation: {
